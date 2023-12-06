@@ -1,0 +1,225 @@
+<html>
+<title>
+	Student application from
+</title>
+<link rel="icon" type="image/x-icon" href="student.jpg" />
+
+<head>
+	<style>
+		body {
+			border-bottom-style: inset;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: 100% 100%;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			font-family: Cambria;
+			font-size:large;
+		
+			
+		}
+
+		td {
+			color: rgb(7, 7, 7);
+		}
+		.column{
+			float: left;
+			padding:5px ;
+			align-content: center;
+		}
+		.row::after{
+			content: " ";
+			clear: both;
+			display: table;
+			align-content: center;
+			
+		}
+		div{
+			align-self: center;
+		
+		}
+		table{
+			font-size: large;
+			
+		}
+		
+		
+	
+	</style>
+</head>
+
+<body>
+		<div>
+			<img src="univ_header2.png" width="800px" height="200px" alt="ADIKAVI NANNAYA UNIVERSITY LOGO"/>
+			<div class="row" style="align-items: center;">
+				<div class="column">
+				<img src="student logo.jpg" width="50px" height="50px" jalt="STUDENT LOGO"/>
+				</div>
+				<div class="column">
+			<h1 style="color: red; text-align: center; font-family:stika heading;"> Student Application Form</h1>
+			</div>
+			<div class="column">
+				<img src="aknu-logo.png" width="70px" height="70px" alt=" AKNU LOGO"/>
+			</div>
+		</div>
+		</div>
+		<form>
+
+			<table>
+
+				<tr>
+					<td>
+					</td>
+					<td>
+						<input type=radio name=initilation checked>MR
+						<input type=radio name=initilation checked>Ms
+						<input type=radio name=initilation checked>Mrs
+					</td>
+				</tr>
+
+				<tr>
+					<td>First Name
+					</td>
+					<td>
+						<input type=text name=first name placeholder="First name">
+					</td>
+				</tr>
+
+				<tr>
+					<td> Last Name
+					</td>
+					<td>
+						<input type=text name=Last name placeholder="last name">
+					</td>
+				</tr>
+
+				<tr>
+					<td>E-mail ID
+					</td>
+					<td>
+						<input type=text name=email id placeholder="E Mail ID">
+					</td>
+				</tr>
+
+				<tr>
+					<td>City
+					</td>
+					<td>
+						<input text name=text>
+					</td>
+				</tr>
+
+
+				<tr>
+					<td>
+						state
+					</td>
+					<td>
+						<select name=State>
+							<option value="Andhra Pradesh"> Andhra Pradesh
+							<option value="Tamil Nadu">Tamil Nadu
+							<option value="Kerala">Kerala
+							<option value="karnataka">karnataka
+							<option value="Telangana">Telangana
+							<option value="Deli">Deli
+							<option value="Gujarath">Gujarath
+						</select>
+					</td>
+				</tr>
+
+
+				<tr>
+					<td>Upload file
+					</td>
+					<td>
+						<input type=file name=file name=file name>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						User contact number
+					</td>
+					<td>
+						<input type=text name=phone number placeholder="+91" </td>
+				</tr>
+
+				<tr>
+					<td>
+						Known languages
+					</td>
+					<td>
+						<input type=checkbox name=1k value=English>English
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type=checkbox name=2 value=Tamil>Tamil</td>
+				</tr>
+				<tr>
+					<td></td>
+
+					<td><input type=checkbox nmae=3 value=Telugu>Telugu</td>
+				</tr>
+				<tr>
+					<td></td>
+
+					<td><input type=checkbox name=4 value=Malyalam>Malyalam</td>
+				</tr>
+				<tr>
+					<td></td>
+
+					<td><input type=checkbox name=5 value=Hindi>Hindi</td>
+				</tr>
+				<tr>
+					<td></td>
+
+					<td><input type=checkbox name=6 value=Gujarathi>Gujarathi</td>
+				</tr>
+				<tr>
+					<td>
+						Enter your course Name
+					</td>
+					<td>
+						<input type="text" >
+					</td>
+				</tr>
+
+
+
+
+
+				<tr>
+					<td>
+						Additional Information
+					</td>
+					<td>
+						<textarea name=Additionl Information row=3 clos=20 placeholder="optinal"></textarea>
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+					</td>
+					<td>
+						<input type=Submit value=submit>
+						<input type=Reset value=reset>
+					</td>
+				</tr>
+
+			</table>
+		</form>
+		<div class="display">
+			
+		</div>
+		<script src="simple.js">
+		</script>
+		
+<button type="button" onclick="vamsi()">print this page</button>
+
+</body>
+
+</html>
+  
+
